@@ -4,7 +4,7 @@
 hex = {'A': 10, 'B': 11, 'C': 12, 'D': 13, 'E': 14, 'F': 15}
 
 
-def htod(num):  # 숫자를 받았을 때에 거꾸로 세면서 16*16*16....
+def htod(num):  # 숫자를 받았을 때에 세면서 16*16*16....
     d = 0
     for i in range(len(num)):
         char = num[i]
